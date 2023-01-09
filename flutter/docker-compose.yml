@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  dockerplatform:
+    image: flutter_fastlane
+    build:
+      context: .
+      dockerfile: ./Dockerfile
